@@ -1,0 +1,16 @@
+<?php
+
+$username = "tyler.franzen@undcsmysql";
+$database = "tyler_franzen";
+$password = "tyler8629";
+$host     = "undcsmysql.mysql.database.azure.com";
+$conn     = new mysqli( $host, $username, $password, $database );
+
+if ( $conn->connect_error )
+  die( 'Could not connect: ' . $conn->connect_error );
+
+
+
+
+
+?>
